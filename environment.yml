@@ -7,3 +7,4 @@ dependencies:
   - sphinx-book-theme
   - pip
   - jupyter-book
+  - ipykernel

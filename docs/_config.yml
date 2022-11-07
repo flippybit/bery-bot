@@ -36,6 +36,7 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: true
+  use_search_bar_text:  false
 
 sphinx:
   html_theme: sphinx_book_theme

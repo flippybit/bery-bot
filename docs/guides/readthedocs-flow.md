@@ -55,12 +55,3 @@ to modify conf.py use `jupyter-book conf sphinx ~/path/to/notebooks/_config.yml`
       environment: environment.yml
     ```
 
-## List of conda commands you keep forgetting
-**dont forget to use mamba and install pip packets last**
-*   create a new environment without a file 
-    ```bash
-    conda create 
-    ```
-* conda create a new environment with a file **better**
-* export the dependancies to the environment.yml file 
-* export dependancies that we manually installed.

@@ -22,5 +22,5 @@ parts: # a list of chapters, usefull if you want to group chapters
   - file: guides/configuration-guides
     sections: # used to split a chapter across many pages 
       - file: guides/CANbus101
-      - file: guides/configuration-guides
-      - file: guies/readthedocs-flow
+      - file: guides/readthedocs-flow
+      - file: forgive-and-forget

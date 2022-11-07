@@ -1,0 +1,7 @@
+# Forgive and Forget list of commands
+in no particular order or subject
+
+**dont forget to use mamba and install pip packets last**
+* conda create a new environment with a file **better**
+* export the dependancies to the environment.yml file 
+* export dependancies that we manually installed.

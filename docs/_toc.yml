@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+format: jb-book
+root: intro
+parts:
+
+- caption: Computer Vision
+  chapters:
+  - file: vision/computer-vision
+    sections:
+      - file: vision/mask-rcnn
+      - file: vision/yolo
+
+- caption: ROS
+  chapters:
+  - file: ros/URDF
+  - file: ros/manipulator
+  - file: ros/installing-ros
+  - file: ROS-workflows
+
+- caption: Configuration Guides
+  chapters:
+  - file: guides/configuration-guides
+    sections:
+      - file: guides/CANbus101
+      - file: guides/configuration-guides~

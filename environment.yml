@@ -6,6 +6,4 @@ dependencies:
   - python=3.10
   - sphinx-book-theme
   - pip
-  - jupyter-notebooks
-  - ipykernell
   - jupyter-book

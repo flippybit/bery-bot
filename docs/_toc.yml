@@ -3,7 +3,7 @@
 format: jb-book
 root: intro
 parts: # a list of chapters, usefull if you want to group chapters
-- caption: Computer Vision
+- caption: COMPUTER VISION
   chapters:
   - file: vision/computer-vision
     sections:
@@ -12,15 +12,17 @@ parts: # a list of chapters, usefull if you want to group chapters
 
 - caption: ROS
   chapters:
-  - file: ros/URDF
+  - file: ros/urdf
   - file: ros/manipulator
   - file: ros/installing-ros
-  - file: ROS-workflows
+  - file: ros/ros-workflows
 
-- caption: Configuration Guides
+- caption: GUIDES
   chapters:
   - file: guides/configuration-guides
     sections: # used to split a chapter across many pages 
-      - file: guides/CANbus101
+      - file: guides/canbus-overview
+      - file: guides/canbus101
+      - file: guides/canbus-with-hardware
       - file: guides/readthedocs-flow
-      - file: forgive-and-forget
+      - file: guides/forgive-and-forget

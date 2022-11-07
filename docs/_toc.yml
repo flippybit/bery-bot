@@ -2,8 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 format: jb-book
 root: intro
-parts:
-
+parts: # a list of chapters, usefull if you want to group chapters
 - caption: Computer Vision
   chapters:
   - file: vision/computer-vision
@@ -21,6 +20,7 @@ parts:
 - caption: Configuration Guides
   chapters:
   - file: guides/configuration-guides
-    sections:
+    sections: # used to split a chapter across many pages 
       - file: guides/CANbus101
-      - file: guides/configuration-guides~
+      - file: guides/configuration-guides
+      - file: guies/readthedocs-flow

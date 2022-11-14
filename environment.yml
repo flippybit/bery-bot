@@ -8,3 +8,5 @@ dependencies:
   - pip
   - jupyter-book
   - ipykernel
+  - numpy
+  - matplotlib

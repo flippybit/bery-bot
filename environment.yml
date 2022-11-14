@@ -10,3 +10,5 @@ dependencies:
   - ipykernel
   - numpy
   - matplotlib
+  - pip:
+    - furo

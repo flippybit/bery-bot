@@ -10,7 +10,7 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: vision/mask-rcnn
       - file: vision/yolo
       #- file: vision/mask-rcnn-notebook      
-      
+
 - caption: ROS
   chapters:
   - file: vision/mask-rcnn-notebook
@@ -18,6 +18,10 @@ parts: # a list of chapters, usefull if you want to group chapters
   - file: ros/manipulator
   - file: ros/installing-ros
   - file: ros/ros-workflows
+
+- caption: TEST
+  chapters:
+  - file: test-page
 
 - caption: GUIDES
   chapters:

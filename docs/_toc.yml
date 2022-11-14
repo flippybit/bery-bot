@@ -9,7 +9,7 @@ parts: # a list of chapters, usefull if you want to group chapters
     sections:
       - file: vision/mask-rcnn
       - file: vision/yolo
-      - file: vision/mask-rcnn-notebook
+      - file: vision/mask-rcnn-notebook.ipynb
 
 - caption: ROS
   chapters:

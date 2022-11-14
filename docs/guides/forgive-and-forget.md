@@ -17,3 +17,7 @@ In no particular order or subject
     ```bash
     conda install matplotlib
     ```
+* Dry install a package 
+```bash
+    conda install matplotlib --dry-run
+```

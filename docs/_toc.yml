@@ -18,6 +18,7 @@ parts: # a list of chapters, usefull if you want to group chapters
   - file: ros/manipulator
   - file: ros/installing-ros
   - file: ros/ros-workflows
+  - file: ros/the-hiearchy
 
 - caption: TEST
   chapters:

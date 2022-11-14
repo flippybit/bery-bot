@@ -1,4 +1,4 @@
-# The ROS system
+# The hierarchy
 
 ### ROS Robot Operating System
 

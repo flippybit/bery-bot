@@ -18,6 +18,6 @@ In no particular order or subject
     conda install matplotlib
     ```
 * Dry install a package 
-```bash
-    conda install matplotlib --dry-run
-```
+    ```bash
+        conda install matplotlib --dry-run
+    ```

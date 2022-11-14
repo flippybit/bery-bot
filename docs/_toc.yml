@@ -11,6 +11,10 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: vision/yolo
       - file: vision/mask-rcnn-notebook
 
+- caption: Notebooks
+  chapters:
+    - file: vision/mask-rcnn-notebook      
+
 - caption: ROS
   chapters:
   - file: ros/urdf

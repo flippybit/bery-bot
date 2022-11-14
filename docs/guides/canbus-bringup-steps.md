@@ -1,6 +1,6 @@
 # Bringing up CAN interface on linux machine
 
-### Native Interfaces
+## Native Interfaces
 
 In most cases you won't need to load the kernel driver for your real hardware. So let us concentrate on ip invocation:
 

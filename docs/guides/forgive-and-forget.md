@@ -21,3 +21,7 @@ In no particular order or subject
     ```bash
         conda install matplotlib --dry-run
     ```
+* Rebuilding a conda environment from scratch
+    ```bash
+        mamba env create --file environment.yml --force
+    ```

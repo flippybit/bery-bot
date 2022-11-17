@@ -9,7 +9,7 @@ parts: # a list of chapters, usefull if you want to group chapters
     sections:
       - file: vision/mask-rcnn
       - file: vision/yolo
-      - file: vision/fresa-rcnn-notebook    
+      - file: vision/fresa-detect-demo
 
 - caption: ROS
   chapters:

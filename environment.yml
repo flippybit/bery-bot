@@ -10,5 +10,6 @@ dependencies:
   - ipykernel
   - numpy
   - matplotlib
+  - sphinx_thebe
   - pip:
     - furo

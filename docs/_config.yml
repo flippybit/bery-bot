@@ -37,4 +37,4 @@ html:
   use_search_bar_text:  false
 
 sphinx:
-  html_theme: furo
+  html_theme: sphinx_book_theme

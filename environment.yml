@@ -13,3 +13,4 @@ dependencies:
   - sphinx-thebe
   - pip:
     - furo
+    - sphinxcontrib.video

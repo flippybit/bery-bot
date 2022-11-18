@@ -5,6 +5,8 @@ so anyone who desires can reproduce the robot, most of the software is written i
 
 
 ## goal of this document
+To document the process of building the berry-bot of both the software and hardware as well as providing easy to follow guides to replicate this robot as its nature is open-source.
+One of the main goals of this project is to provide a robot platform that can be reproduced and improved by the community.
 
 
 ### smaller title of this document

@@ -13,16 +13,18 @@ parts: # a list of chapters, usefull if you want to group chapters
 
 - caption: ROS
   chapters:
-  - file: ros/mask-rcnn-notebook
-  - file: ros/urdf
-  - file: ros/manipulator
   - file: ros/installing-ros
-  - file: ros/ros-workflows
-  - file: ros/the-hiearchy
+    sections:
+      - file: ros/mask-rcnn-notebook
+      - file: ros/urdf
+      - file: ros/manipulator
+      - file: ros/ros-workflows
+      - file: ros/the-hiearchy
 
-- caption: TEST
+- caption: HARDWARE
   chapters:
-  - file: test-page
+  - file: hardware/test-page
+  - file: hardware/the-hardware
 
 - caption: GUIDES
   chapters:

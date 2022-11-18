@@ -16,7 +16,7 @@ external_toc_exclude_missing = False
 external_toc_path = '_toc.yml'
 html_baseurl = ''
 html_favicon = ''
-html_logo = ''
+html_logo = '../docs/imgs/hero.png'
 html_sourcelink_suffix = ''
 html_theme = 'sphinx_book_theme'
 html_theme_options = {'search_bar_text': 'Search this book...', 'launch_buttons': {'notebook_interface': 'classic', 'binderhub_url': 'https://mybinder.org', 'jupyterhub_url': '', 'thebe': False, 'colab_url': ''}, 'path_to_docs': '', 'repository_url': 'https://github.com/executablebooks/jupyter-book', 'repository_branch': 'master', 'google_analytics_id': '', 'extra_navbar': 'Powered by <a href="https://jupyterbook.org">Jupyter Book</a>', 'extra_footer': '', 'home_page_in_toc': True, 'announcement': '', 'use_repository_button': False, 'use_edit_page_button': False, 'use_issues_button': False}

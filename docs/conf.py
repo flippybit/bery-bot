@@ -6,7 +6,7 @@
 author = 'Bensek'
 bibtex_bibfiles = ['references.bib']
 comments_config = {'hypothesis': False, 'utterances': False}
-copyright = '2022'
+copyright = '2024'
 exclude_patterns = ['**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db', '_build']
 execution_allow_errors = False
 execution_excludepatterns = []

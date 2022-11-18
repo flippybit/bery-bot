@@ -35,13 +35,14 @@ parts: # a list of chapters, usefull if you want to group chapters
   chapters:
   - file: hardware/hardware-intro
     sections:
-      - file: hardware/test-page
-      - file: hardware/the-hardware
+      - file: hardware/mobile-base
+      - file: hardware/manipulator
+      - file: hardware/tooltips
 
 - caption: GUIDES
   chapters:
   - file: guides/configuration-guides
-    sections: # used to split a chapter across many pages 
+    sections:
       - file: guides/canbus-overview
       - file: guides/canbus101
       - file: guides/canbus-with-hardware

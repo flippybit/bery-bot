@@ -5,7 +5,7 @@ root: intro
 parts: # a list of chapters, usefull if you want to group chapters
 - caption: COMPUTER VISION
   chapters:
-  - file: vision/computer-vision
+  - file: vision/computer-vision-intro
     sections:
       - file: vision/mask-rcnn
       - file: vision/yolo
@@ -23,8 +23,10 @@ parts: # a list of chapters, usefull if you want to group chapters
 
 - caption: HARDWARE
   chapters:
-  - file: hardware/test-page
-  - file: hardware/the-hardware
+  - file: hardware/hardware-intro
+    sections:
+      - file: hardware/test-page
+      - file: hardware/the-hardware
 
 - caption: GUIDES
   chapters:

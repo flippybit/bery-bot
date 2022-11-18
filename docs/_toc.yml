@@ -37,7 +37,7 @@ parts: # a list of chapters, usefull if you want to group chapters
     sections:
       - file: hardware/mobile-base
       - file: hardware/manipulator
-      - file: hardware/tooltips
+      - file: hardware/tool-tips
 
 - caption: GUIDES
   chapters:

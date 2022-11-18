@@ -1,5 +1,5 @@
 # The Manipulator 
-![Ar3-model](/docs/imgs/Ar3.jpg)  
+![Ar3-model](../imgs/Ar3.jpg)  
 
 Every robot needs a manipulator to interact with its surrounding, in this
 project we will use another open-source project by Annin Robotics the robot arm model AR3.  
@@ -11,5 +11,5 @@ This project is has as rich community and offers a detailed manual and BOM (Bill
 
 
 ## the hardware parts
-![ar3-alum-parts](/docs/imgs/last.png)|![ar3-alum-parts2](/docs/imgs/ar3-alum-parts2.png)
+![ar3-alum-parts](../imgs/last.png)|![ar3-alum-parts2](../imgs/ar3-alum-parts2.png)
 

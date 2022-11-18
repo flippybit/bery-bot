@@ -14,6 +14,13 @@ Your browser does not support the video tag.
 video from google 
 
 <video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1bBSXvcllVRoKuwURUMobJxNcEQ3Ude9Z/view?usp=share_link" type="video/mp4">
+  <source src="https://drive.google.com/file/d/1bBSXvcllVRoKuwURUMobJxNcEQ3Ude9Z/view?usp=share_link">
+Your browser does not support the video tag.
+</video>
+
+video in webm format
+
+<video width="320" height="240" controls>
+  <source src="../imgs/out.webm">
 Your browser does not support the video tag.
 </video>

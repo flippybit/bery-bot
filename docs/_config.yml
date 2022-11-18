@@ -7,7 +7,7 @@
 
 title: Berry Bot
 author: Bensek
-logo: ../docs/imgs/hero
+logo: ../imgs/hero
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

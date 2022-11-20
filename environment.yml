@@ -12,5 +12,4 @@ dependencies:
   - matplotlib
   - sphinx-thebe
   - pip:
-    - furo
     - sphinxcontrib.video

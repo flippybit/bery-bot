@@ -13,11 +13,9 @@
     ```bash
     catkin init
     ```
-    sample of expected output:
+    expected output:
     ```{toggle}
-    ```bash
-    mkdir -p /src  | grep this
-    ```
+    ```{figure}..docs/imgs/real-berries.png
     ```
 
 4.  Build the workspace folder with `catkin build`

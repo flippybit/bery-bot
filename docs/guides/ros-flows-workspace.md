@@ -22,4 +22,35 @@
 a block toggle:
 ```{toggle}
 This note is toggled!
+```bash
+fire@fire-box:~/catkin_example_ws$ catkin init
+Initializing catkin workspace in `/home/fire/catkin_example_ws`.
+-----------------------------------------------------------------
+Profile:                     default
+Extending:             [env] /opt/ros/noetic
+Workspace:                   /home/fire/catkin_example_ws
+-----------------------------------------------------------------
+Build Space:       [missing] /home/fire/catkin_example_ws/build
+Devel Space:       [missing] /home/fire/catkin_example_ws/devel
+Install Space:      [unused] /home/fire/catkin_example_ws/install
+Log Space:         [missing] /home/fire/catkin_example_ws/logs
+Source Space:       [exists] /home/fire/catkin_example_ws/src
+DESTDIR:            [unused] None
+-----------------------------------------------------------------
+Devel Space Layout:          linked
+Install Space Layout:        None
+-----------------------------------------------------------------
+Additional CMake Args:       None
+Additional Make Args:        None
+Additional catkin Make Args: None
+Internal Make Job Server:    True
+Cache Job Environments:      False
+-----------------------------------------------------------------
+Buildlisted Packages:        None
+Skiplisted Packages:         None
+-----------------------------------------------------------------
+Workspace configuration appears valid.
+-----------------------------------------------------------------
+
+```
 ```

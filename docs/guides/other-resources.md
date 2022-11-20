@@ -1,13 +1,12 @@
-# Other usefull online resources
+# Other useful online resources
 a place to gather all the tips and tricks necesary to make the proyect work
 
-## Selection of some of the best guides money cant get..
+## Selection of the best guides money cant get..
 
 
 ### Practical free ROS guides 
 1. universidad catalana: https://sir.upc.edu/projects/rostutorials/10-gazebo_control_tutorial/index.html#
 2. ROS industrial
-
 
 
 ### Linux command line tutorials

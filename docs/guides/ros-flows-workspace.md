@@ -92,4 +92,9 @@
     [build]   <font color="#2E3436"><i><b>Failed:    None.</b></i></font>                                                                                                             
     [build] <i><b>Runtime:</b></i> <i>1.8 seconds total.</i> </pre>
 
-EOF
+## Summary 
+we have finished building a ROS workspace, which is the first of buildinga robot with ROS
+our file structure should look like this:
+
+
+This constitutes the main flow of creating a ROS workspace, in the next guides we will build packages **inside** this workspace.

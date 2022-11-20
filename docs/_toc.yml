@@ -41,6 +41,7 @@ parts: # a list of chapters, usefull if you want to group chapters
 
 - caption: GUIDES
   chapters:
+  
   - file: guides/guides-intro
     sections:
       - file: guides/canbus-overview
@@ -50,7 +51,8 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: guides/forgive-and-forget
       - file: guides/canbus-bringup-steps
   - file: flows/flows-intro
-    sections: flows/ros-flows-workspace
+    sections:
+      - file: flows/ros-flows-workspace
 
 - caption: OTHER ONLINE RESOURCES
   chapters:

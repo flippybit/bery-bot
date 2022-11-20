@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="second_ROS_assembly">
+  <!-- <link name="dummy">
+</link> -->
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0238527736757131 0.0302575884346185 0.0164525455897387"
+        rpy="0 0 0" />
+      <mass
+        value="6.96014582154472" />
+      <inertia
+        ixx="0.157010845871244"
+        ixy="-6.80636251973468E-08"
+        ixz="3.31436115155446E-07"
+        iyy="0.175527368223199"
+        iyz="4.79183052933669E-06"
+        izz="0.0245899285236148" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <!-- <joint name="dummy_joint" type="fixed">
+    <parent link="dummy"/>
+    <child link="base_link"/>
+  </joint> -->
+  <link
+    name="wheel_front_right_link">
+    <inertial>
+      <origin
+        xyz="-0.0834233166879348 -4.79039784784252E-08 -2.71688332942333E-08"
+        rpy="0 0 0" />
+      <mass
+        value="1.35623582745475" />
+      <inertia
+        ixx="0.00503725325146757"
+        ixy="4.28361326042855E-09"
+        ixz="1.59097059465095E-09"
+        iyy="0.00287898482201386"
+        iyz="1.35148113423023E-10"
+        izz="0.00287898465692789" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_front_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_front_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_front_right_joint"
+    type="continuous">
+    <origin
+      xyz="-0.13938 0.16 0.04"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_front_right_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="wheel_front_left_link">
+    <inertial>
+      <origin
+        xyz="-0.0834233166894094 -4.79047695123302E-08 -2.71653393946192E-08"
+        rpy="0 0 0" />
+      <mass
+        value="1.35623582740497" />
+      <inertia
+        ixx="0.00503725325146555"
+        ixy="4.28366804414505E-09"
+        ixz="1.59070561655519E-09"
+        iyy="0.00287898482196187"
+        iyz="1.34838665529045E-10"
+        izz="0.00287898465682032" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_front_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_front_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_front_left_joint"
+    type="continuous">
+    <origin
+      xyz="0.13938 0.16 0.04"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_front_left_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="wheel_back_right_link">
+    <inertial>
+      <origin
+        xyz="-0.0834233168676585 -4.70153401974094E-08 -2.60275697383516E-08"
+        rpy="0 0 0" />
+      <mass
+        value="1.35623582388937" />
+      <inertia
+        ixx="0.00503725325132272"
+        ixy="4.21416379490867E-09"
+        ixz="1.50749991857654E-09"
+        iyy="0.00287898482281527"
+        iyz="1.40880897856428E-10"
+        izz="0.00287898462354608" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_back_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_back_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_back_right_joint"
+    type="continuous">
+    <origin
+      xyz="-0.13938 -0.16 0.04"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_back_right_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="wheel_back_left_link">
+    <inertial>
+      <origin
+        xyz="-0.0834233172078751 -4.71900903145639E-08 -2.76032373902613E-08"
+        rpy="0 0 0" />
+      <mass
+        value="1.35623581476376" />
+      <inertia
+        ixx="0.00503725325095133"
+        ixy="4.22946349929477E-09"
+        ixz="1.62441486526651E-09"
+        iyy="0.00287898477281409"
+        iyz="1.37578130609984E-10"
+        izz="0.00287898462478865" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_back_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://second_ROS_assembly/meshes/wheel_back_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_back_left_joint"
+    type="continuous">
+    <origin
+      xyz="0.13938 -0.16 0.04"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_back_left_link" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+</robot>

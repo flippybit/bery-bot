@@ -1,5 +1,6 @@
 # ROS - Flows
 ## workspace building flow
+This constitutes the main flow of creating a ROS workspace.
 
 1. Build the workspace folder 
     ```bash
@@ -92,9 +93,11 @@
     [build]   <font color="#2E3436"><i><b>Failed:    None.</b></i></font>                                                                                                             
     [build] <i><b>Runtime:</b></i> <i>1.8 seconds total.</i> </pre>
 
-## Summary 
-we have finished building a ROS workspace, which is the first of buildinga robot with ROS
+### Summary
+```{figure} ../imgs/itaintmuch.jpeg
+```
+we have finished building an empty ROS workspace, which is the first of building a robot with ROS
 our file structure should look like this:
 
 
-This constitutes the main flow of creating a ROS workspace, in the next guides we will build packages **inside** this workspace.
+ in the next guides we will build packages **inside** this workspace.

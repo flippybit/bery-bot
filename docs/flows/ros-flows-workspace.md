@@ -1,4 +1,4 @@
-# workspace building flow
+# Building a simple ROS workspace
 This constitutes the main flow of creating a ROS workspace.
 ```{figure} ../imgs/flows/catkin-flow.png
 ---
@@ -104,12 +104,10 @@ diagram showing minimal catkin worspace file hierachy
 ```{figure} ../imgs/itaintmuch.jpg
 ---
 align: center
-height: 350
-width: 350
+height: 200
+width: 354
 ---
 ``` 
 we have finished building an empty ROS workspace, which is the first of building a robot with ROS
-our file structure should look like this:
-
-
- in the next guides we will build packages **inside** this workspace.
+our file structure should look like this:   
+In the next guides we will build packages **inside** this workspace.

@@ -1,3 +1,6 @@
+```{note}
+**this is a work in progress structure will vary**
+```
 #  Bloom-Bot Documentation
 Bloom-Bots main goal is to provide an open-source robotic platform for the automation of agricultural tasks
 such as:  
@@ -16,10 +19,5 @@ One of the main goals of this project is to provide a robot platform that can be
 
 
 ### table of contents
-
-**this is a work in progress structure will vary**
-
-Check out the content pages bundled with this sample book to see more.
-
 ```{tableofcontents}
 ```

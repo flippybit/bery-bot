@@ -21,5 +21,5 @@
 
 a block toggle:
 ```{toggle}
-{note} This note is toggled!
+This note is toggled!
 ```

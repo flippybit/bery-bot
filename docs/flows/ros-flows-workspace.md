@@ -99,10 +99,15 @@ diagram showing minimal catkin worspace file hierachy
     [build]   <font color="#2E3436"><i><b>Failed:    None.</b></i></font>                                                                                                             
     [build] <i><b>Runtime:</b></i> <i>1.8 seconds total.</i> </pre>
 
-### Summary
+### Summary 
 
 ```{figure} ../imgs/itaintmuch.jpg
-```
+---
+align: center
+height: 350
+width: 350
+---
+``` 
 we have finished building an empty ROS workspace, which is the first of building a robot with ROS
 our file structure should look like this:
 

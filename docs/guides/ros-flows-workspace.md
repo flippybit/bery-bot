@@ -9,10 +9,17 @@
     ```bash
     cd catkin_examples_ws
     ```
-3. Initialize the workspace folder ()
+3. Initialize the workspace folder
     ```bash
     catkin init
     ```
+    sample of expected output:
+    ```{toggle}
+    ```bash
+    mkdir -p /src  | grep this
+    ```
+    ```
+
 4.  Build the workspace folder with `catkin build`
     ```bash
     catkin build
@@ -21,7 +28,6 @@
 
 a block toggle:
 ```{toggle}
-This note is toggled!
 ```bash
 fire@fire-box:~/catkin_example_ws$ catkin init
 Initializing catkin workspace in `/home/fire/catkin_example_ws`.

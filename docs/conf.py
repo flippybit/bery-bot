@@ -35,7 +35,7 @@ html_theme_options = {'search_bar_text': 'Search this book...',
                       'repository_branch': 'master', 'google_analytics_id': '',
                       'extra_navbar': 'Powered by <a href="https://jupyterbook.org">Jupyter Book</a>', 
                       'extra_footer': '', 'home_page_in_toc': True,
-                      'announcement': '',
+                      'announcement': 'this is a public service anouncement',
                       'use_repository_button': True,
                       'use_edit_page_button': False, 
                       'use_issues_button': False}

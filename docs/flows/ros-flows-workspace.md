@@ -1,6 +1,11 @@
 # workspace building flow
 This constitutes the main flow of creating a ROS workspace.
-```{figure} ../imgs/flows/catkin_ws-flow.png
+```{figure} ../imgs/flows/catkin-flow.png
+---
+alt: this is a test
+align: center
+---
+diagram showing minimal catkin worspace file hierachy
 ```
 
 1. Build the workspace folder 

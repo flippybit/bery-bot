@@ -1,4 +1,4 @@
-# Hardware Intro
+# Hardware
 
 this robot can be subdivided into the following
 

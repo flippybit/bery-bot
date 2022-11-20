@@ -1,3 +1,3 @@
-# Guides Intro
+# Guides
 ```{tableofcontents}
 ```

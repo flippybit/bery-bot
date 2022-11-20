@@ -2,9 +2,8 @@ name: berry-bot
 channels:
   - defaults
   - conda-forge
-  - robostack
 dependencies:
-  - python
+  - python=3.10
   - sphinx-book-theme
   - pip
   - jupyter-book
@@ -12,7 +11,5 @@ dependencies:
   - numpy
   - matplotlib
   - sphinx-thebe
-  - ros-noetic-desktop
-  - catkin_tools
-  - jupyterlab
-  - jupyter-ros
+  - pip:
+    - sphinxcontrib.video

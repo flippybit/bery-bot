@@ -15,12 +15,16 @@
     ```
     expected output:
     ```{toggle}
-    ```{figure}..docs/imgs/real-berries.png
+    ```{figure} ../imgs/real-berries.png
     ```
 
 4.  Build the workspace folder with `catkin build`
     ```bash
     catkin build
+    ```
+    ```{toggle}
+    ```bash
+    
     ```
 
 

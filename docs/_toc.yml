@@ -48,5 +48,5 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: guides/canbus-with-hardware
       - file: guides/readthedocs-flow
       - file: guides/forgive-and-forget
-      - file: guides/canbus-bringup-steps.md
-      
+      - file: guides/canbus-bringup-steps
+      - file: guides/ros-flows-workspace

@@ -21,9 +21,15 @@ html_logo = 'hero.png'
 html_sourcelink_suffix = ''
 html_theme = 'sphinx_book_theme'
 html_theme_options = {'search_bar_text': 'Search this book...', 
-                      'launch_buttons': {'notebook_interface': 'classic',
-                      'binderhub_url': 'https://mybinder.org', 'jupyterhub_url': '', 
-                      'thebe': False, 'colab_url': 'https://colab.research.google.com/drive/1HF4YOWyLdJ1FJYHyCiYMANBkIHPTq1ey?usp=sharing'},
+                      'launch_buttons':
+                                         {
+                                        'notebook_interface': 'classic',
+                                        'binderhub_url': 'https://mybinder.org', 
+                                        'jupyterhub_url': '', 
+                                        'thebe': False, 
+                                        'colab_url': 'https://colab.research.google.com/drive/1HF4YOWyLdJ1FJYHyCiYMANBkIHPTq1ey?usp=sharing'
+                                        },
+                                        
                       'path_to_docs': 'docs/',
                       'repository_url': 'https://github.com/flippybit/bery-bot',
                       'repository_branch': 'master', 'google_analytics_id': '',

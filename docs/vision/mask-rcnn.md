@@ -1,17 +1,28 @@
-# Mask-RCNN  
-the algorithm used..
+# Mask R-CNN (Region Based Convolutional Neural Networks)
+Region-based Convolutional Neural Networks are a family of machine-learning models for computer-vision specifically object detection and segmentation.
 
-## Mask R-CNN
 
-que es mask R-CNN?
 
-un algoritmo para realizar instance segmentation 
-consta de 2 sub problemas.
+## Overview of Mask R-CNN
+Mask R-CNN is a two stage framework: 
+1.  The first stage scans the image and generates proposals(areas likely to contain an object).  
+2.  Second stage classifies the proposals and generates bounding boxes and masks.
 
-1.   Object Detection: encontrar y clasificar el numero de objetos en una imagen.
-2.   Semantic Segmentation: es entender la imagen  
+```{figure} ../imgs/cv_imgs/mask-two-stage.png
+---
+height: 400
+width: 600
+align: center
+---
+Mask R-CNN framework. Source: https://arxiv.org/abs/1703.06870
 
-Mask R-CNN = Faster R-CNN con FCN en ROIs
+```
+### High level overview of main modules.
+This algorithm consists of 4 main modules which we will briefly describe,  
+for a more in detail description read the [blog post](https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46)
+of the creator `Walled Abdulla.`
 
-Mask R-CNN es un meta algoritmo que puede soportar multiples implementaciones y mejoras aplicadas a la arquitectura del backbone como 
-ResNet o (FPN)Feature Pyramid Net como 
+1.  Backbone
+2.  Region Proposal Network
+3.  Region of Interest & Bounding Box Regressor
+4.  Segmentation Masks

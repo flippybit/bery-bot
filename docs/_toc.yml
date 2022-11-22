@@ -20,10 +20,15 @@ parts: # a list of chapters, usefull if you want to group chapters
   - file: vision/algorithms
     sections:
       - file: vision/mask-rcnn
-      - file: vision/fresa-detect-presentation
-  - file: vision/yolo
-    sections:
-      - file: vision/yolo-notebook
+      - file: vision/yolo
+      
+- caption: MASK RCNN NOTEBOOK
+  chapters:
+  - file: vision/fresa-detect-presentation
+
+- caption: YOLO V3 NOTEBOOK
+  chapters:
+  - file: vision/yolo-notebook
 
 - caption: ROS
   chapters:

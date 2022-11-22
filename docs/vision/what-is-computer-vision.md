@@ -6,16 +6,13 @@ how far away they are, whether they are moving and whether there is something wr
 
 [computer-vision intro by IBM](https://www.ibm.com/topics/computer-vision)
 
-```{ref} Classification
-```
-
 ## The different tasks of an CV algorithm
 
 ```{figure} ../imgs/cv_imgs/ballons-tasks.png
 ---
 alt: different types of cv tasks
 align: center
-height: 500
+height: 400
 width: 500
 ---
 different types of cv tasks

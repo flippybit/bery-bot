@@ -2,7 +2,6 @@
 ```{figure} ../imgs/Ar3.jpg
 ---
 align: center
-
 ---
 AR3 manipulator
 ```

@@ -21,15 +21,15 @@ parts: # a list of chapters, usefull if you want to group chapters
     sections:
       - file: vision/mask-rcnn
       - file: vision/yolo
-      
+
 - caption: MASK RCNN NOTEBOOK
   chapters:
   - file: vision/fresa-detect-presentation
 
 - caption: YOLO V3 NOTEBOOK
   chapters:
-  - file: vision/yolo-notebook
-
+  - file: vision/yolo-test-notebook  
+  
 - caption: ROS
   chapters:
   - file: ros/ros-intro

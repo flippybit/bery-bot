@@ -8,8 +8,8 @@ Mask R-CNN is a two stage framework:
 
 ```{figure} ../imgs/cv_imgs/mask-two-stage.png
 ---
-height: 400
-width: 600
+height: 300
+width: 500
 align: center
 ---
 Mask R-CNN framework. Source: https://arxiv.org/abs/1703.06870
@@ -71,6 +71,12 @@ RPN returns two ouputs for each anchor:
 
 
 ### 3. Region of Interest & Bounding Box Regressor
+At this piont we have the regions of interest proprosed by the RPN.
+Now just like in the RPN we generate two outputs for each region of interest
+1. Class:
+2. Bounding Box Refinment:
+   
+
 #### Region of interest Pooling
 
 ### 4. Segmentation Masks

@@ -67,6 +67,7 @@ parts: # a list of chapters, usefull if you want to group chapters
     sections:
       - file: flows/ros-flows-workspace
       - file: flows/the-hiearchy
+      - file: flows/pub-sub-node-cpp
 
 - caption: OTHER RESOURCES
   chapters:

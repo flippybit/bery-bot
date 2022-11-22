@@ -45,15 +45,16 @@ Source: Feature Pyramid Networks paper
 
 The Feature pyramid network (FPN) is an improvement on the backbone method it resembles a pyramid shape
 with the original image as the base extracting features on the way to the top.  
-This method uses 2 pyramids.this second pyramid feeds the features extracted by the first pyramid who then pass them down to its lower layers.
+This method uses 2 pyramids.    
+This second pyramid feeds the features extracted by the first pyramid who then pass them down to its lower layers.
 The goal of this second pyramid is to improve the dectection of objects at multiple scales, by allowing each level to have access to both lower and higher level features.
 
 
-### Region Proposal Network
+### 2. Region Proposal Network
 ```{figure} ../imgs/cv_imgs/rpn-anchors.png
 ---
 align: center
-height: 600
+height: 400
 width:  400
 ---
 Simplified illustration showing 49 anchor boxes
@@ -65,10 +66,11 @@ In practice the RPN draws anchor boxes of diferent sizes and shapes,
 also it does this on the feature map returned by the backbone, not on directly on the input image.
 
 RPN returns two ouputs for each anchor:
-1.  Anchor Class: 
-2.  Bounding Box Refinement:
+1.  Anchor Class: foreground or background
+2.  Bounding Box Refinement: uses the anchor class to better fit the object within the bounding box
 
 
-### Region of Interest & Bounding Box Regressor
+### 3. Region of Interest & Bounding Box Regressor
+#### Region of interest Pooling
 
-### Segmentation Masks
+### 4. Segmentation Masks

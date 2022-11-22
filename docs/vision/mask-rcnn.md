@@ -1,6 +1,7 @@
 # Region Based Convolutional Neural Networks
 Region-based Convolutional Neural Networks are a family of machine-learning models for computer-vision specifically object detection and segmentation.  
-
+```{contents}
+```
 ## Overview of Mask R-CNN
 Mask R-CNN is a two stage framework: 
 1.  The first stage scans the image and generates proposals(areas likely to contain an object).  

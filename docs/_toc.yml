@@ -47,9 +47,10 @@ parts: # a list of chapters, usefull if you want to group chapters
 
 - caption: PROTOTYPE
   chapters:
-  - file: prototype/base-prototype
+  - file: prototype/prototype-intro
     sections:
       - file: prototype/manipulator-prototype
+      - file: prototype/base-prototype
 
 - caption: GUIDES
   chapters:

@@ -45,11 +45,11 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: hardware/manipulator
       - file: hardware/tool-tips
 
-  - caption: PROTOTYPE
-    chapters:
-    - file: prototype/base-prototype
-      sections:
-        - file: prototype/manipulator-prototype
+- caption: PROTOTYPE
+  chapters:
+  - file: prototype/base-prototype
+    sections:
+      - file: prototype/manipulator-prototype
 
 - caption: GUIDES
   chapters:

@@ -1,29 +1,29 @@
-# The simple publisher / subscriber node in ROS
+# ROS publisher subscriber node
 
 the ros.org link to this tutorial is here http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
 
-## in this guide we are writing a pubisher and a subcriber node for ROS
+## In this guide we are writing a pubisher and a subcriber node for ROS
 
-1.  first we need to have created a catkin_ws this directory is were all our nodes will live
+1. First we need to have created a catkin_ws this directory is were all our nodes will live
 
-make a folder/directory
+Make a folder/directory
 ```bash
 mkdir -p catkin_tutorials_ws/src
 ```
-init the workspace 
+Init the workspace 
 ```bash
 catkin init
 ```
-build the workspace
+Build the workspace
 ```bash
 catkin build
 ```
-source the workspace
+Source the workspace
 ```bash
 source devel/setup.bash
 ```
 
-  ### 2. Create a package
+  ### Create a package
 Inside of the workspace we will create a ROS package this is were our nodes will live
 
 ```bash

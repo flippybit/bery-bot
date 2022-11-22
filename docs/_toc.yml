@@ -17,6 +17,7 @@ parts: # a list of chapters, usefull if you want to group chapters
   - file: vision/computer-vision-intro
     sections:
       - file: vision/what-is-computer-vision
+      - caption: ALGORITHMS
       - file: vision/mask-rcnn
       - file: vision/yolo
       - file: vision/fresa-detect-presentation

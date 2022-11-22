@@ -19,7 +19,7 @@ ROS was born in an effort to stop reinventing the wheel in every robot project, 
 >  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; --*Douglas Hofstadter*---
 
 ```{epigraph}
-Below every tangled hierarchy lies an inviolate level.
+**Below every tangled hierarchy lies an inviolate level**   
 -- Douglas Hofstader
 ```
 

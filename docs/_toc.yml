@@ -36,8 +36,7 @@ parts: # a list of chapters, usefull if you want to group chapters
     sections:
       - file: ros/urdf
       - file: ros/manipulator
-      - file: ros/ros-workflows
-      
+
 - caption: HARDWARE
   chapters:
   - file: hardware/hardware-intro
@@ -45,6 +44,12 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: hardware/mobile-base
       - file: hardware/manipulator
       - file: hardware/tool-tips
+
+  - caption: PROTOTYPE
+    chapters:
+    - file: prototype/base-prototype
+      sections:
+        - file: prototype/manipulator-prototype
 
 - caption: GUIDES
   chapters:
@@ -57,10 +62,10 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: guides/readthedocs-flow
       - file: guides/forgive-and-forget
       - file: guides/canbus-bringup-steps
-      - file: guides/the-hiearchy
   - file: flows/flows-intro
     sections:
       - file: flows/ros-flows-workspace
+      - file: flows/the-hiearchy
 
 - caption: OTHER RESOURCES
   chapters:

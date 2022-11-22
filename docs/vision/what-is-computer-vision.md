@@ -6,6 +6,9 @@ how far away they are, whether they are moving and whether there is something wr
 
 [computer-vision intro by IBM](https://www.ibm.com/topics/computer-vision)
 
+```{ref} Classification
+```
+
 ## The different tasks of an CV algorithm
 
 ```{figure} ../imgs/cv_imgs/ballons-tasks.png

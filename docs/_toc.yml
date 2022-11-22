@@ -29,17 +29,15 @@ parts: # a list of chapters, usefull if you want to group chapters
 - caption: YOLO V3 NOTEBOOK
   chapters:
   - file: vision/yolo-test-notebook  
-  
+
 - caption: ROS
   chapters:
   - file: ros/ros-intro
     sections:
-      - file: ros/mask-rcnn-notebook
       - file: ros/urdf
       - file: ros/manipulator
       - file: ros/ros-workflows
-      - file: ros/the-hiearchy
-
+      
 - caption: HARDWARE
   chapters:
   - file: hardware/hardware-intro
@@ -59,10 +57,11 @@ parts: # a list of chapters, usefull if you want to group chapters
       - file: guides/readthedocs-flow
       - file: guides/forgive-and-forget
       - file: guides/canbus-bringup-steps
+      - file: guides/the-hiearchy
   - file: flows/flows-intro
     sections:
       - file: flows/ros-flows-workspace
 
-- caption: OTHER ONLINE RESOURCES
+- caption: OTHER RESOURCES
   chapters:
   - file: guides/other-resources

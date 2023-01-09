@@ -17,6 +17,8 @@ parts: # a list of chapters, usefull if you want to group chapters
   - file: vision/computer-vision-intro
     sections:
       - file: vision/what-is-computer-vision
+      - file: vision/point-clouds
+
   - file: vision/algorithms
     sections:
       - file: vision/mask-rcnn

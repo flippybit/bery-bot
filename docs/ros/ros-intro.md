@@ -1,5 +1,6 @@
-# ROS intro
-the simple quick guide to installing ROS
+# ROS packages
+
+## Structure of the Rospackages in Bloom-Bot
 
 ```{tableofcontents}
 ```

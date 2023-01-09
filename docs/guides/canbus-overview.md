@@ -1,8 +1,8 @@
 # What is CANbus
 
-The Controller Area Network, is a communication its a message-based protocol(a set of rules for the exchange of data between devices)
+The Controller Area Network, is a communication message-based protocol(a set of rules for the exchange of data between devices)
 
-PDO: Process Data Object - Inputs and outputs. Values of type rotational speed, voltage,Vector CANeds 3.6 frequency electric current.
+PDO: Process Data Object - Inputs and outputs. Values of type rotational speed, voltage,Vector,frequency electric current.
 
 SDO: Service Data Object - Configuration settings, possibly node ID, baud rate, offset, gain.
 

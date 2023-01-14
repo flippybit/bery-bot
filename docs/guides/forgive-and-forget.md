@@ -6,8 +6,8 @@ In no particular order or subject
     ```bash
     mamba env create --prefix ./env --file environment.yml
     ```
-* export the dependancies to the environment.yml file 
-* export dependancies that we manually installed.
+* export the dependencies to the environment.yml file 
+* export dependencies that we manually installed.
 
 * Install a package with mamba:
    ```bash
@@ -19,9 +19,21 @@ In no particular order or subject
     ```
 * Dry install a package 
     ```bash
-        conda install matplotlib --dry-run
+    conda install matplotlib --dry-run
     ```
 * Rebuilding a conda environment from scratch
     ```bash
-        mamba env create --file environment.yml --force
+    mamba env list --file environment.yml --force
+    ```
+* Delete an environment
+    ```bash
+    mamba env remove --name <environment>
+    ```
+* List all environments 
+    ```bash
+    mamba env list
+    ```
+* create environment using requirements.txt
+    ```bash
+    mamba create --name <environment_name> --file requirements.txt
     ```
